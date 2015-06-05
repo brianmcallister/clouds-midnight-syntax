@@ -1,6 +1,18 @@
 // Coffee language.
 .coffee {
   .embedded {
-    color: @light-gray;
+    color: @blue;
+
+    &.punctuation {
+      color: @red;
+    }
+  }
+
+  .constant {
+    color: @mint;
+
+    &.numeric {
+      color: @green;
+    }
   }
 }
